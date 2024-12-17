@@ -25,6 +25,3 @@ prompt_template = ChatPromptTemplate([
 
 email_agent = prompt_template | llm
 
-#email = email_agent.invoke("Hashim, Nadeem, hashim@cosmosys.co, CDO, Cosmosys \n Existing customers: Yahya, Qureshi, yahya@ok.co, CEO, ok")
-
-#print(email.content)
